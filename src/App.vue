@@ -21,6 +21,7 @@ export default {
   methods: {
     requestDataFromApi() {
       axios
+        // aprire link su Firefox per vedere formattazione
         .get("https://db.ygoprodeck.com/api/v7/cardinfo.php", {
           params: {
             num: 20,
